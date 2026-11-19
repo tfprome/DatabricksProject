@@ -1,6 +1,4 @@
 # E-commerce Lakehouse on Databricks (Bronze → Silver → Gold)
-
-Hands-on data engineering assignment (instructor: Lipton Ahammed, due 19 Nov 2026).
 Messy synthetic order and payment CSVs go in; reconciled, documented analytics come out in Databricks AI/BI and Power BI.
 **All data is synthetic. No real customers, credentials or raw CSVs are in this repo.**
 
