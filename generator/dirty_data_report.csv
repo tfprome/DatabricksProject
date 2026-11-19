@@ -1,0 +1,26 @@
+file,anomaly_type,field,count,percent_of_rows
+orders.csv,null_blank,customer_id,5000,0.5
+orders.csv,text_in_numeric,quantity,5000,0.5
+orders.csv,text_in_numeric,unit_price,5000,0.5
+orders.csv,negative_or_out_of_range,quantity,4000,0.4
+orders.csv,negative_or_out_of_range,unit_price,4000,0.4
+orders.csv,invalid_or_future_timestamp,order_date,6000,0.6
+orders.csv,inconsistent_case_whitespace,order_status,30000,3.0
+orders.csv,inconsistent_case_whitespace,category,20000,2.0
+orders.csv,inconsistent_case_whitespace,country,10000,1.0
+orders.csv,invalid_label,order_status,3000,0.3
+orders.csv,exact_duplicate_row,all columns,5000,0.5
+orders.csv,duplicate_key_different_content,order_id,5000,0.5
+transactions.csv,null_blank,txn_id,3000,0.3
+transactions.csv,null_blank,amount,5000,0.5
+transactions.csv,text_in_numeric,amount,5000,0.5
+transactions.csv,negative_or_out_of_range,amount,4000,0.4
+transactions.csv,invalid_or_future_timestamp,txn_ts,6000,0.6
+transactions.csv,inconsistent_case_whitespace,payment_method,30000,3.0
+transactions.csv,inconsistent_case_whitespace,txn_status,30000,3.0
+transactions.csv,inconsistent_case_whitespace,currency,10000,1.0
+transactions.csv,invalid_label,currency,5000,0.5
+transactions.csv,invalid_label,txn_status,3000,0.3
+transactions.csv,orphan_reference,order_id,10000,1.0
+transactions.csv,exact_duplicate_row,all columns,5000,0.5
+transactions.csv,duplicate_key_different_content,txn_id,5000,0.5
